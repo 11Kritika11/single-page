@@ -1,0 +1,96 @@
+/* ----------------------- */
+/*         Reset          */
+/* -----------------------*/
+
+/*   box-sizing    */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/*       margins     */
+body, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+/*    -----------------------  styling the sheet       -----------------------                       */
+
+body {
+  font-family: 'Karla', sans-serif;
+}
+
+/* text contaainer */
+
+h1 {
+  color: hsl(179, 62%, 43%);
+  padding-bottom: 1.2rem;
+}
+
+h2 {
+  display: inline-block;
+  color: white;
+  margin-right: 10px;
+}
+
+.per {
+  display: inline-block;
+  opacity: 50%;
+}
+
+.day {
+  color: hsl(71, 73%, 54%);
+  padding-bottom: 0.5rem;
+}
+
+h3 {
+  color: white;
+  padding-bottom: 5%;
+}
+
+p {
+  color: hsl(204, 43%, 93%);
+  width: 70%;
+  line-height: 2;
+}
+
+.top-text {
+  color: hsl(218, 22%, 67%);
+}
+
+/* container */
+
+.top {
+  background-color: #fff;
+  padding: 5% 7%;
+
+}
+
+.left {
+  background-color: hsl(179, 62%, 43%);
+  padding: 5% 7%;
+}
+
+.right {
+  background-color: hsl(179, 62%, 47%);
+  padding: 5% 7%;
+}
+
+.signUp {
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  display: block;
+  margin-top: 2rem;
+  width: 100%;
+
+}
+
+
+.attrbt {
+  font-size: 1rem;
+  text-align: center;
+  margin:auto;
+  color: grey;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
